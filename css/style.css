@@ -12,6 +12,8 @@ Body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* NAV STYLE */
+
 .main-nav{
     position: fixed;
     z-index: 10;
@@ -39,6 +41,8 @@ Body {
     color: black;
 }
 
+/* SECTIONS */
+
 .section {
     height: 100vh;
     position: relative;
@@ -56,8 +60,8 @@ Body {
     background-color: yellow;
 }
 
+/* contenitore content */
 .content {
-    /* background-color: blue; */
     position: absolute;
     top: 50%;
     left: 50%;
