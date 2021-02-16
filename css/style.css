@@ -4,8 +4,38 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 Body {
     font-family: 'Rubik Mono One', sans-serif;
+}
+
+.main-nav{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.main-nav ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.main-nav ul li a{
+    display: inline-block;
+    /* dimensioni nel tag 'a' in modo da rendere cliccabile l'intera area
+    intono al testo*/
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .section {
