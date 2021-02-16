@@ -14,6 +14,7 @@ Body {
 
 .main-nav{
     position: fixed;
+    z-index: 10;
     top: 20px;
     right: 20px;
 }
@@ -40,6 +41,7 @@ Body {
 
 .section {
     height: 100vh;
+    position: relative;
 }
 
 .first {
@@ -52,4 +54,22 @@ Body {
 
 .third {
     background-color: yellow;
+}
+
+.content {
+    /* background-color: blue; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: yellow;
+}
+
+.third.section .content h1 {
+    color: green;
 }
